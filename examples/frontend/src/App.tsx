@@ -69,7 +69,7 @@ function App() {
   <Flex align="center" gap="3">
     {/* Logo image */}
     <img
-      src="https://www.google.com/url?sa=i&url=https%3A%2F%2Flsvp.com%2Fcompany%2Fmysten-labs%2F&psig=AOvVaw3XSq6KsOtc5Cam2n4uhmNI&ust=1744169914429000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCLDCy7PBx4wDFQAAAAAdAAAAABAE" // Make sure this path matches where you store the logo
+      src="https://ibb.co.com/zV34FWhm" // Make sure this path matches where you store the logo
       alt="Seal Logo"
       style={{ width: '48px', height: '48px', borderRadius: '8px' }}
     />
