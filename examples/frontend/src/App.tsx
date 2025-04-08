@@ -65,21 +65,7 @@ function App() {
     <Container>
       <Flex position="sticky" px="4" py="2" justify="between">
         <h1 className="text-4xl font-bold m-4 mb-8">Sealsui Testnet By ArsusFlx</h1>
-        <Flex position="sticky" px="4" py="2" justify="between" align="center">
-  <Flex align="center" gap="3">
-    {/* Logo image */}
-    <img
-      src="https://ibb.co.com/zV34FWhm" // Make sure this path matches where you store the logo
-      alt="Seal Logo"
-      style={{ width: '48px', height: '48px', borderRadius: '8px' }}
-    />
-    <h1 className="text-4xl font-bold">Seal Example Apps</h1>
-  </Flex>
-  <Box>
-    <ConnectButton />
-  </Box>
-</Flex>
-
+        {/* <p>TODO: add seal logo</p> */}
         <Box>
           <ConnectButton />
         </Box>
