@@ -65,7 +65,7 @@ function App() {
     <Container>
       <Flex position="sticky" px="4" py="2" justify="between">
         <h1 className="text-4xl font-bold m-4 mb-8">Sealsui Testnet By ArsusFlx</h1>
-        import SealLogo from './frontend/src/71-kjh3f_400x400.png'; // adjust path as needed
+        import SealLogo from '/frontend/src/71-kjh3f_400x400.png'; // adjust path as needed
         <img src={SealLogo} alt="Seal Logo" style={{ height: '50px' }} />
         {/* <p>TODO: add seal logo</p> */}
         <Box>
