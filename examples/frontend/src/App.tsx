@@ -62,19 +62,23 @@ function App() {
   const [recipientAllowlist, setRecipientAllowlist] = useState<string>('');
   const [capId, setCapId] = useState<string>('');
   return (
-    <Container>
-      <Flex position="sticky" px="4" py="2" justify="between">
-        <h1 className="text-4xl font-bold m-4 mb-8">Sealsui Testnet By ArsusFlx</h1>
-        <img
-      src="https://framerusercontent.com/images/7aMkTHb3G4luHY6ZbwK41qWqag.png"
+    <Flex position="sticky" px="4" py="2" justify="between" align="center">
+  {/* Kiri: Logo + Title dalam satu baris */}
+  <Flex align="center" gap="2">
+    <img
+      src="https://pbs.twimg.com/profile_images/1714053861076553728/71-kjh3f_400x400.png"
       alt="Seal Logo"
-      style={{ height: '50px', objectFit: 'contain' }}
+      style={{ height: '40px', objectFit: 'contain' }}
     />
-        {/* <p>TODO: add seal logo</p> */}
-        <Box>
-          <ConnectButton />
-        </Box>
-      </Flex>
+    <h1 className="text-2xl font-bold">Sealsui Testnet By ArsusFlx</h1>
+  </Flex>
+
+  {/* Kanan: Wallet Connect Button */}
+  <Box>
+    <ConnectButton />
+  </Box>
+</Flex>
+
       <Card style={{ marginBottom: '2rem' }}>
         <p>
           1. Code is available{' '}
